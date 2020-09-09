@@ -145,7 +145,7 @@
 
 	// Scrolly.
 		$('.scrolly').scrolly({
-			speed: 2000,
+			speed: 1400,
 			offset: function() {
 
 				if (breakpoints.active('<=medium'))
