@@ -2065,6 +2065,9 @@ input, select, textarea {
 	  font-size: 500%;
 	  font-weight: bold;
 	  color: #ffffff;
+		border-top: solid 5px white;
+		border-bottom: solid 5px white;
+		padding: 2% 0;
 	}
 
 		.image[data-position] img {
