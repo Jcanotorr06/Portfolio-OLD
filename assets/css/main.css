@@ -1219,6 +1219,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+			#resume{
+				padding: 0 1vh;
+			}
 
 			.row {
 				display: flex;
