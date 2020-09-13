@@ -210,6 +210,10 @@ input, select, textarea {
 		padding: 0.25em 0.65em;
 	}
 
+	.thumb{
+		border: 1px solid #000;
+	}
+
 	pre {
 		font-family: "Source Code Pro", monospace;
 		font-size: 0.9em;
