@@ -210,8 +210,16 @@ input, select, textarea {
 		padding: 0.25em 0.65em;
 	}
 
+
+
 	.thumb{
 		border: 1px solid #000;
+		transition: 1s;
+	}
+
+	.thumb:hover{
+		transform: scale(1.25);
+		z-index: 3;
 	}
 
 	pre {
@@ -2701,6 +2709,7 @@ input, select, textarea {
 			display: inline-block;
 			vertical-align: middle;
 			width: 50%;
+			transition: 2s;
 		}
 
 			.features article .inner > :last-child {
@@ -3194,6 +3203,7 @@ input, select, textarea {
 			.features article .inner {
 				display: block;
 				width: 100%;
+				transition: 2s;
 			}
 
 		/* Header */
