@@ -2705,6 +2705,16 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.features article iframe {
+				display: block;
+				width: 100%;
+			}
+			#spotprof{
+				padding: 2px;
+				text-align: justify;
+				width: 100%;
+			}
+
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
