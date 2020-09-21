@@ -213,7 +213,7 @@ input, select, textarea {
 
 
 	.thumb{
-		border: 1px solid #000;
+		border: 3px solid #4acaa8;
 		transition: 1s;
 	}
 
@@ -2060,6 +2060,12 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+		}
+		.brands{
+			transition: 1s;
+		}
+		.brands:hover{
+			transform: scale(1.1);
 		}
 
 /* Image */
