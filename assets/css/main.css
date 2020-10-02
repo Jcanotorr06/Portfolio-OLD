@@ -2917,6 +2917,22 @@ input, select, textarea {
 					color: inherit;
 				}
 
+.frame-container{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 56.25%;
+}
+
+iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
@@ -2988,6 +3004,17 @@ input, select, textarea {
 	@media screen and (max-width: 1024px) {
 
 		/* Basic */
+
+			.centro{
+				position: absolute;
+			  top: 30%;
+			  left: 20%;
+				font-size: 40pt;
+			}
+
+			.frame-container{
+				padding-top: 75%;
+			}
 
 			html, body {
 				overflow-x: hidden;
@@ -3158,6 +3185,13 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
+
+		.centro{
+			position: absolute;
+			top: 20%;
+			left: 10%;
+			font-size: 30pt;
+		}
 
 			body, input, select, textarea {
 				font-size: 12pt;
